@@ -1,0 +1,296 @@
+/* Bootstrap */
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+}
+
+.nav, th {
+	font-size: 15px;
+}
+
+.navbar-inverse {
+    background: #2196F3;
+    border-color: #2196F3;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-text {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+	background: #2196F3;
+}
+
+.navbar-inverse .navbar-toggle:hover{
+	background: #2196F3;
+}
+
+.navbar-inverse .navbar-toggle:active{
+	background: #2196F3;
+}
+
+/* /bootstrap */
+
+/* bot */
+
+.bot_block_content {
+	min-height: 500px;
+}
+
+.textarea_bot_settings{
+	width: 100%;
+}
+
+.close_button_botsettings {
+	text-align: right;
+}
+
+.bot_shortcodes {
+	font-size: 14px;
+	padding: 3px;
+}
+
+body {
+	background: #FAFAFA;
+}
+.main_nav {
+	background: white;
+	height: 100%;
+	margin-left: -10px;
+	margin-top: -40px;
+	margin-right: 20px;
+}
+
+.main_nav a {
+	color: black;
+	
+}
+
+.main_nav .active {
+	color: #FAFAFA;
+	border-left: 6px solid #2196F3;
+}
+
+.main_container {
+	margin-top: 100px;
+}
+
+.edit_info {
+	display: none;
+}
+
+a {
+	cursor: pointer!important;
+}
+
+.head_select_products {
+	width: 200px;
+	margin-top: 5px;
+}
+
+/*  nav */
+
+.nav-exit{
+	color: white;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+#search {
+	width: 60%;
+	margin-top: 5px;
+}
+.logout_button {
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+
+/* orders */
+.number_order {
+	margin-top: 10px;
+}
+
+.wholesale_color {
+	background: #0D47A1!important;
+	border-color: #0D47A1!important;
+}
+
+.list_orders {
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.total_area_info {
+	margin-bottom: 30px;
+}
+/* products */
+.image_input {
+	visibility: hidden;
+	font-size: 5px;
+}
+
+.cl-search-icon {
+	cursor: pointer;
+	font-size: 25px;
+	color: #2196F3;
+}
+
+.td_center_text {
+	text-align: center;
+}
+.hidden_select {
+	visibility: hidden;
+}
+
+.add_product_button {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+.add_product_modal input{
+	margin-top: 20px;
+}
+
+.add_product_modal select{
+	margin-top: 20px;
+}
+
+.add_product_modal button{
+	margin-top: 30px;
+	width: 100%;
+}
+
+.pagination_block{
+  text-align: center;
+}
+
+.products_main_block {
+	min-height: 40vh;
+}
+
+.pagination>li>a, .pagination>li>span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.6;
+  text-decoration: none;
+  color: #0091A9;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: -1px;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+  z-index: 3;
+  color: #fff;
+  background-color: #0091A9;
+  border-color: #0091A9;
+  cursor: default;
+}
+
+/* Mail */
+
+.mailing-panel {
+	background: #2196F3!important;
+	color: white!important;
+}
+
+.mailing_time {
+	color: #1664A3;
+	text-align: center;
+}
+
+.mailing_time input{
+	width: 90px;
+}
+
+.mailing-panel i{
+	color: white;
+}
+
+.textarea_mailing {
+	width: 100%;
+	height: 400px;
+}
+/* Users */
+
+.block_users {
+	margin-bottom: 50px;
+}
+
+/* bot */
+
+.input_bot {
+	width: 300px;
+	height: 50px;
+	border-radius: 3px;
+}
+
+.button_bot {
+	width: 300px;
+}
+
+/* category */
+.add_category_modal input{
+	margin-top: 20px;
+}
+
+.add_category_modal select{
+	margin-top: 20px;
+}
+
+.add_category_modal button{
+	margin-top: 30px;
+	width: 100%;
+}
+
+.category_name_list li{
+	margin-top: 20px;
+	list-style-type: none;
+}
+
+
+@media screen and (max-width: 768px) {
+	.main_nav {
+		margin-top: 1px;
+		margin-right: 0px;
+	}
+}
+.login {
+    margin-top: 100px;
+}
+.nav {
+    margin-top:10px;
+}
+.navbar-header {
+    width: 200px;
+}
+.gen-button {
+    margin-top: 15px;
+}
+.w-100 {
+    width: 100%;
+}
+.small-date {
+    width:100%;
+    text-align:right;
+}
+#history .alert {
+    width: 80%;
+}
+#history .alert-success {
+    margin-left: 30px;
+}
+.order-total div {
+    float: left;
+    margin: 5px 15px;
+    color: #fff;
+}
+#cats  {
+    padding: 20px;
+}

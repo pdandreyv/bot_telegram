@@ -1,0 +1,1 @@
+[24-Oct-2017 21:26:17 Europe/Moscow] PHP Fatal error:  Cannot use 'self' as class name as it is reserved in /home/bot/web/bot.it-future.com.ua/public_html/app/Bot_setting.php on line 8

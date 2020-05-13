@@ -1,0 +1,4 @@
+INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
+(1, 'test', 'test@test.com', '$2y$10$.rRBrPluZrDAkeyjOmVaUuTCOM1dKa5ol2FFdPAzCmizbFrB9ZXeC', 'ddKwf1ENLINJLdIFcqqw4h0NCSB48OZd4BlepULhuYXFdydHxCJ6WNhQSrVM', '2017-07-24 04:00:18', '2017-07-24 07:42:02'),
+(2, 'new', 'admn@admn.net', '$2y$10$hWGx8Trmu1kNCztX6TFunujfAKFLLu1u.vQXOkmB2T0uTmFJej.5C', 'pvUy8R3mxiXaBoMeuYvi5uhDprESGjKiQQNyCC3TJmILud2dXNIxUuAYKnEM', '2017-07-24 07:33:52', '2017-07-28 06:30:28'),
+(3, 'admin', 'admin@admin.net', '$2y$10$MaJuvbHFXfAlLu2uDrBuUOfJqpYS0Nj5VAtV67McGzAVWQ7WtuqxC', '6HXZAj7ZtALos923ndlKrZ3uRKsuIejYURaKzPRpjRCWEuPHn3rjtrwlN70D', '2017-07-25 07:54:31', '2017-07-25 07:54:31');
